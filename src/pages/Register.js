@@ -1,6 +1,6 @@
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import RegisterCard from "../../components/RegisterCard";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import RegisterCard from "../components/RegisterCard";
 
 function Register() {
     return (

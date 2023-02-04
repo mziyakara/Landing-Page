@@ -1,8 +1,8 @@
-import DownloadPage from "../pages/LandingPages/DownloadPage";
 import { Routes, Route } from "react-router-dom";
-import Login from "../pages/LandingPages/Login";
-import Register from "../pages/LandingPages/Register";
-import LandingPage from "../pages/LandingPages/LandingPage";
+import DownloadPage from "../pages/DownloadPage";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
+import LandingPage from "../pages/LandingPage";
 
 function LandingRoute() {
     return (

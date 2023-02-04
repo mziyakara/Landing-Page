@@ -1,6 +1,6 @@
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import LoginCard from "../../components/LoginCard";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import LoginCard from "../components/LoginCard";
 
 function Login() {
     return (
