@@ -1,0 +1,260 @@
+body{  background-color: #f8f3f3;}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+  /* position: absolute; */
+  border-radius: 1000px;
+  width: 1000px;
+  height:1000px;
+    animation: App-logo-spin infinite 30s linear;
+  }
+}
+
+.sunContainer{
+  width:1000px;
+  height:1000px;
+  overflow: hidden;
+  margin-left: 20%;
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 5%;
+  
+}
+
+.mainLogo{
+  width: 17%;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.screenShots{
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 50px; 
+}
+
+.screenShotsContainer{
+  width: 50%;
+  margin-left: 20%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.screenShotsText{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mainPage {
+  background-color: #EEE3E3;
+  padding-bottom: 100%;
+}
+
+.signIn{
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainHeader{
+  background-color: #1A1624;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+p{
+  font-weight: bolder;
+}
+
+.mainText{
+  margin-left: 10%;
+  font-size:200%;
+}
+
+.subText{
+  margin-left: 10%;
+  font-size:200%;
+  font-weight: 400;
+}
+
+.footerText{
+  font-size:20px;
+  margin-left: 20px;
+  text-align: left;
+  font-weight: 300;
+  color: #EEE3E3;
+  width: 50%;
+}
+
+.footerImg{
+  display: flex;
+  flex-direction: column;}
+
+.App-link {
+  color: #61dafb;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  background-color: #1A1624;
+  margin-top: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footerAbout{
+  font-size:20px;
+  margin-right: 10px;
+  font-weight: 300;
+  color: #EEE3E3;
+  text-align: right;
+  width:50%;
+}
+
+.footerLogo{
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.headerText{
+  color:white;
+  text-decoration: none;
+  font-weight:600;
+  font-size: 100%;
+  padding-left: 50px;
+
+}
+
+.homePage{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  font-size: x-large;
+  margin-top: 40px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.registerCard{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.usernameCard{
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 10px #1A1624;
+  margin-top: 50px;
+}
+
+.usernameInputContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.input{
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 5%;
+  border-color: rgb(218, 218, 218);  
+  border-width: 1px;
+  padding-left: 10px;
+}
+
+.registerBtn{
+  width: 30%;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border-width: 0;
+  background-color: #1A1624;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  
+}
+
+.registerBtn:hover{
+  opacity: 0.9;
+  width: 31%;
+  height: 41px;
+  background-color: #FDC576;
+  color: #1A1624;
+}
+
+.headerText:hover{
+  color: #FDC576;
+}
+
+.navBar{
+  width: 400%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin-left: 150%;
+  text-decoration: none;
+}
+
+.sideBar{
+  width: 200%;
+  height: 400%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-top: 135%;
+  padding-bottom: 500%;
+  padding-top: 50%;
+  text-decoration: none;
+  flex-wrap: nowrap;
+}
